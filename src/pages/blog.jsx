@@ -97,7 +97,7 @@ Technology</h3>
     <div className='the-tab-content'>
       <div className='row items-center'>
         <div className='col-md-4'>
-           <div className='blog-div'>
+           <a href="/blog-inner" className='blog-div'>
              <div className='blog-img'>
                <img src="/assets/images/b-1.png" />
              </div>
@@ -110,7 +110,7 @@ Technology</h3>
                <h3>A UX Case Study Creating a Studious Environment for Students: </h3>
                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
              </div>
-           </div>
+           </a>
         </div>
         <div className='col-md-4'>
            <div className='blog-div'>
@@ -129,7 +129,7 @@ Technology</h3>
            </div>
         </div>
         <div className='col-md-4'>
-           <div className='blog-div'>
+           <a href="/blog-inner" className='blog-div'>
              <div className='blog-img'>
                <img src="/assets/images/b-1.png" />
              </div>
@@ -142,7 +142,7 @@ Technology</h3>
                <h3>A UX Case Study Creating a Studious Environment for Students: </h3>
                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
              </div>
-           </div>
+           </a>
         </div>
         <div className='col-md-4'>
            <div className='blog-div'>

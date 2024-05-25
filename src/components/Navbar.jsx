@@ -53,20 +53,24 @@ const Navbar = () => {
             link : '/program'
         },
         {
-            name : 'Coaches',
-            link : '/career'
+            name : 'Partners',
+            link : '/partners'
         },
         {
-            name : 'Stories',
-            link : '/culture'
+            name : 'Faq',
+            link : '/faq'
         },
         {
-            name : 'Media',
-            link : '/culture'
+            name : 'Philosophy',
+            link : '/philosophy'
         },
         {
-            name : 'Contact',
-            link : '/culture'
+            name : 'Blogs',
+            link : '/blog'
+        },
+        {
+            name : 'Gallery',
+            link : '/gallery'
         },
     ]
 
@@ -101,7 +105,7 @@ const Navbar = () => {
                         </ul>
                         <ul className="ot-nav">
                             <li>
-                                <a href="/contact-us" className='main-btn'>
+                                <a href="/book-now" className='main-btn'>
                                     Join Now
                                 </a>
                             </li>

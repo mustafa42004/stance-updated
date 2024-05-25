@@ -193,21 +193,21 @@ const ProgramPage = () => {
   <div id="image-container">
     <img src="/assets/images/ava.png" alt="" className="image" />
   </div>
-  <a href="" className="item">
+  <a href="/running" className="item">
     <div className="ball ball1"></div>
   </a>
-  <div className="item">
+  <a href='/performance-training' className="item">
     <div className="ball ball2"></div>
-  </div>
-  <div className="item">
+  </a>
+  <a href="/injury-management" className="item">
     <div className="ball ball3"></div>
-  </div>
-  <div className="item">
+  </a>
+  <a href='/surgical-rehab' className="item">
     <div className="ball ball4"></div>
-  </div>
-  <div className="item">
+  </a>
+  <a href='/back-to-sports' className="item">
     <div className="ball ball5"></div>
-  </div>
+  </a>
 </div>
 
             </div>
@@ -217,46 +217,46 @@ const ProgramPage = () => {
                   <div className='programs-list'>
                      <div className='program-div'>
                         <div className='program-div-img'>
-                           <img src='/assets/images/circ-1.png' />
+                           <a href="/running"><img src='/assets/images/circ-1.png' /></a>
                         </div>
                         <div className='program-div-con'>
-                          <h3>Running</h3>
+                        <a href="/running"><h3>Running</h3></a>
                           <p>Running improves heart and lung function, boosts endurance, and enhances overall fitness.</p>
                         </div>
                      </div>
                      <div className='program-div'>
                         <div className='program-div-img'>
-                           <img src='/assets/images/circ-4.png' />
+                        <a href="/surgical-rehab"><img src='/assets/images/circ-4.png' /></a>
                         </div>
                         <div className='program-div-con'>
-                          <h3>Surgical rehab</h3>
+                        <a href="/surgical-rehab"><h3>Surgical rehab</h3></a>
                           <p>Regular running strengthens muscles, bones, and joints, improving posture, balance, and flexibility.</p>
                         </div>
                      </div>
                      <div className='program-div'>
                         <div className='program-div-img'>
-                           <img src='/assets/images/circ-5.png' />
+                        <a href="/back-to-sports"><img src='/assets/images/circ-5.png' /></a>
                         </div>
                         <div className='program-div-con'>
-                          <h3>Back to play</h3>
+                        <a href="/back-to-sports"><h3>Back to play</h3></a>
                           <p>Running increases metabolism, aiding weight management and boosting energy levels.</p>
                         </div>
                      </div>
                      <div className='program-div'>
                         <div className='program-div-img'>
-                           <img src='/assets/images/circ-2.png' />
+                        <a href="/performance-training"><img src='/assets/images/circ-2.png' /></a>
                         </div>
                         <div className='program-div-con'>
-                          <h3>Physical fitness</h3>
+                        <a href="/performance-training"><h3>Physical fitness</h3></a>
                           <p>Running reduces stress, boosts mood, sharpens cognitive function, and promotes a positive mindset.</p>
                         </div>
                      </div>
                      <div className='program-div'>
                         <div className='program-div-img'>
-                           <img src='/assets/images/circ-3.png' />
+                        <a href="/injury-management"><img src='/assets/images/circ-3.png' /></a>
                         </div>
                         <div className='program-div-con'>
-                          <h3>Injury management</h3>
+                        <a href="/injury-management"><h3>Injury management</h3></a>
                           <p>Incorporating running into your routine fosters discipline, goal-setting, and personal growth for a fulfilling and active life.</p>
                         </div>
                      </div>
